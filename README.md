@@ -1,6 +1,15 @@
 ## einthusan-cli
 Einthusan CLI tool to extra streaming url. 
 
+## How-to
+To get streaming url only 
+`einthusan-cli "https://einthusan.ca/movie/{movie-id}"`
+
+To download movie locally
+`einthusan-cli "https://einthusan.ca/movie/{movie-id}" FileName.mp4`
+
+
+
 ## Config
 Change `URL` in einthusan-dl.py to use your own `API` server. To deploy your own server please follow the instruction below.
 
